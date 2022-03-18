@@ -1,0 +1,26 @@
+{
+  "name": "getting-started-with-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./dist && tsc && node ./dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobalt-intelligence/getting-started-with-playwright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cobalt-intelligence/getting-started-with-playwright/issues"
+  },
+  "homepage": "https://github.com/cobalt-intelligence/getting-started-with-playwright#readme",
+  "dependencies": {
+    "playwright": "^1.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}
